@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="veloG:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/veloG_jar</output-path>
+    <root id="archive" name="veloG.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="veloG" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../velocity-dep-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../bsh-core-2.0b4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
