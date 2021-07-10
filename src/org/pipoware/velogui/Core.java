@@ -2,7 +2,7 @@ package org.pipoware.velogui;
 
 /**
  * Title:        VeloGUI
- * Description:  A Graphic User Interface for testing velocity scripts whithout writing code.
+ * Description:  A Graphic User Interface for testing velocity scripts without writing code.
  * Copyright:    Copyright (c) 2002
  * Company:      Pipoware.org
  * @author Franck Arnulfo
@@ -20,7 +20,7 @@ import java.io.StringWriter;
 
 public class Core {
 
-    VelocityEngine m_ve;
+     final VelocityEngine m_ve;
 
     public Core() throws Exception {
         m_ve = new VelocityEngine();
